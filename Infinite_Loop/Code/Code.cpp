@@ -31,10 +31,12 @@ int main()
 			cout << "What is your Name: ";
 			cin >> name;
 			cout << "What is your Age? ";
-			cin >> age;
+			cin >> age; 
 			cout << "What is your Occupation? ";
 			cin >> occup;
-	
+	         // remove default:
+			//cout<< " Sorry that choice is not valid!";
+			// break;
 		}
 
 
